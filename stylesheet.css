@@ -1,0 +1,256 @@
+#header_home{
+	background-image:url('images/background2.png');
+	background-repeat: no-repeat;
+	background-size: 38.12% 100%;
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:25.34%;
+	padding-right:25.34%;
+}
+#header_about{
+	background-image:url('images/background2.png');
+	background-repeat: no-repeat;
+	background-size: 38.21% 100%;
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:25.17%;
+	padding-right:25.17%;
+}
+#header_contact{
+	background-image:url('images/background2.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;'
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:24.21%;
+	padding-right:24.21%;
+}
+#header_lesson{
+	background-image:url('images/background2.png');
+	background-repeat: no-repeat;
+	background-size: 41.7% 100%;
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:18.8001%;
+	padding-right:18.8001%;
+}
+#header_week{
+	background-image:url('images/background5.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;'
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:24.57%;
+	padding-right:24.57%;
+}
+#header_week12{
+	background-image:url('images/background5.jpg');
+	background-repeat: no-repeat;
+	background-size: 97.49% 100%;'
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:24.57%;
+	padding-right:24.57%;
+}
+#header_week13{
+	background-image:url('images/background5.jpg');
+	background-repeat: no-repeat;
+	background-size: 97.71% 100%;'
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:24.57%;
+	padding-right:24.57%;
+}
+#header_final{
+	background-image:url('images/background5.jpg');
+	background-repeat: no-repeat;
+	background-size: 40.2% 100%;
+	width:100%;
+	margin-left:12.6%;
+	font-size:36px;
+	position: fixed;
+	padding-left:21.42%;
+	padding-right:21.42%;
+}
+#body {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	color:#8B0000;
+	background-image:url('images/sp.jpg');
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+
+#icon{
+	width:90px;
+	height:90px;
+	margin-left:24%;
+	margin-top:3%;
+}
+#logo{
+	width:90px;
+	height:90px;
+	margin-left:24%;
+	margin-top:3%;
+}
+
+#top_navigation_bar{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image:url('images/background5.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  position: fixed;
+  top: 17%;
+  width: 57.4%;
+  margin-left:12.6%;
+}
+
+#navigation_drawer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 12%;
+  background-image:url('images/background5.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  background-size:cover;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	background-image:url('images/background5.jpg');
+}
+
+li a.active {
+	background-image:url('images/background1.png');
+	color: black;
+}
+
+li a:hover:not(.active) {
+  background-image:url('images/background1.png');
+  color: black;
+}
+
+#none{
+	text-decoration: none;
+}
+
+#main{
+	text-indent: 60px;
+	letter-spacing: 0.9px;
+	line-height: 1.5;
+	word-spacing: 0.9px;
+	margin-left:18%;
+	float:right;
+	background-color:#FFFFE0;
+	height:100%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-top:12%;
+	width:80%;
+}
+
+#week_main{
+	text-indent: 60px;
+	letter-spacing: 0.9px;
+	line-height: 1.5;
+	word-spacing: 0.9px;
+	margin-left:18%;
+	float:right;
+	background-color:#FFFFE0;
+	height:100%;
+	padding-left:1%;
+	padding-right:1%;
+	margin-top:16.8%;
+	width:80%;
+}
+
+#lesson_main{
+	width:82%;
+	margin-left:18%;
+	background-color:#FFFFE0;
+	float:right;
+	margin-top:12%;
+}
+
+#list{
+	list-style-position: outside;
+	padding: 0;
+	margin-left:9%;
+	text-indent:0px;
+	letter-spacing: 0.9px;
+	line-height: 1.5;
+	word-spacing: 0.9px;
+}
+
+div.gallery {
+  margin: 18px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 240px;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 9px;
+  text-align: center;
+}
+
+table, td, th {
+  border: 3px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#footer{
+	font-size:9px;
+	clear:both;
+	padding:1%;
+	background-image:url('images/background2.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align:right;
+	margin-left:18%;
+	bottom: 0;
+}
